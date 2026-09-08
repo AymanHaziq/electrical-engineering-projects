@@ -4,17 +4,32 @@
 
 This project documents a university practical experiment using a scaled electrical network model to investigate transmission-line characteristics, no-load behaviour, and power flow in a two-sided supply network.
 
+![20 kV two-sided network](load-flow-20kv.png)
+
+*Figure 1: Circuit configuration of the 20 kV network used for the load-flow investigation. Source: WHZ, EA04 practical instructions, Annex 4.*
+
 ## Part 1 — Transmission-Line Constants
 
 The electrical parameters of a 100 km, 220 kV overhead line are determined using no-load and short-circuit measurements.
 
 The analysis includes resistance, reactance, inductance, capacitance, and conductance, together with the corresponding transmission-line equivalent circuit.
 
+### Circuit Diagrams
+
+* [View 100 km no-load test circuit](line-no-load-100km.png)
+* [View 100 km short-circuit test circuit](line-short-circuit-100km.png)
+
+
 ## Part 2 — No-Load Behaviour and Compensation
 
 A 450 km, 220 kV overhead line is investigated under no-load conditions.
 
 The experiment examines the Ferranti effect and compares the influence of shunt-reactor compensation at the sending end and receiving end.
+
+### Circuit Diagram
+
+[View 450 km no-load and compensation circuit](line-no-load-450km.png)
+
 
 ## Part 3 — Load Flow in a Two-Sided Network
 
@@ -59,7 +74,7 @@ The following files contain the experiment instructions, completed group report,
 
 ![Electrical network laboratory model](network-model.jpg)
 
-*Figure 1: Scaled electrical network model used for the transmission-line and load-flow experiments. The setup includes configurable line sections, switching equipment, loads, and measurement instruments.*
+*Figure 2: Scaled electrical network model used for the transmission-line and load-flow experiments. The setup includes configurable line sections, switching equipment, loads, and measurement instruments.*
 
 ## Technical Focus
 
