@@ -33,6 +33,20 @@ The analysis considers voltage and current distribution, active and reactive pow
 * **Reactive-power compensation:** Shunt-reactor compensation reduced the receiving-end voltage. The experiment compared reactor placement at the sending and receiving ends.
 * **Load-flow behaviour:** Under equal supply voltages, the lowest measured voltage occurred near Load 2 at approximately 9.5 kV. The line-outage and unequal-voltage cases demonstrated how changes in network configuration affect current and voltage distribution.
 
+### Selected Measurement Results
+
+The table below compares the sending-end and receiving-end voltages of the 450 km overhead line under different compensation conditions.
+
+| Operating condition             | Sending-end voltage | Receiving-end voltage |
+| ------------------------------- | ------------------: | --------------------: |
+| Uncompensated line              |            139.4 kV |              158.0 kV |
+| Sending-end compensation, XL1   |            134.7 kV |              153.2 kV |
+| Receiving-end compensation, XL1 |            134.7 kV |              133.5 kV |
+
+The uncompensated line showed a higher voltage at the receiving end, illustrating the Ferranti effect. With the shunt reactor connected at the receiving end, the measured receiving-end voltage was reduced substantially.
+
+The complete measurements and calculations are available in the Excel workbook linked below.
+
 ## Documentation and Results
 
 The following files contain the experiment instructions, completed group report, and measurement and calculation results for EA04.
