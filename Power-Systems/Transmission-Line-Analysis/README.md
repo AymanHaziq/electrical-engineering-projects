@@ -28,8 +28,18 @@ The analysis considers voltage and current distribution, active and reactive pow
 
 ## Documentation and Results
 
-The `results/` folder contains the measurement and calculation workbook. Additional technical documentation and photographs of the network model can be added to the corresponding folders.
+The following files contain the experiment instructions, completed group report, and measurement and calculation results for EA04.
+
+* **[Experiment Instructions](Praktikumsanleitung%20EA04.pdf)** — The original practical instructions covering transmission-line constants, no-load behaviour, and load flow.
+* **[Technical Report](Protokoll_E04_Gruppe3.pdf)** — The completed group report, including calculations, measurement results, equivalent circuits, and network diagrams.
+* **[Measurement and Calculation Workbook](EA04_Auswertung_V2.xlsx)** — The Excel workbook containing the recorded measurements and supporting calculations.
 
 ## Technical Focus
 
 Transmission-line equivalent circuits, line parameters, Ferranti effect, reactive-power compensation, load-flow analysis, and network operation under changing supply conditions.
+
+## Laboratory Setup
+
+![Electrical network laboratory model](network-model.jpg)
+
+*Figure 1: Scaled electrical network model used for the transmission-line and load-flow experiments. The setup includes configurable line sections, switching equipment, loads, and measurement instruments.*
